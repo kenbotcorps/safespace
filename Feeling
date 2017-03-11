@@ -1,17 +1,31 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>How are you feeling from a scale of 1-10?</title>
-</head>
-
-<div class="row">
-  <div class="small-10 medium-11 columns">
-    <div class="range-slider" data-slider data-options="display_selector: #sliderOutput3;">
-      <span class="range-slider-handle" role="slider" tabindex="0"></span>
-      <span class="range-slider-active-segment"></span>
-    </div>
-  </div>
-  <div class="small-2 medium-1 columns">
-    <span id="sliderOutput3"></span>
-  </div>
-</div>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>repl.it</title>
+        <script src="index.js"></script>
+        <link href="index.css" rel="stylesheet" type="text/css" />
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css">
+    </head>
+ <style>
+  p {
+    font-size: 24px;
+    font-family: Comic Sans MS;
+    color: purple;
+  }
+ </style>
+ <p>How are you feeling today on a scale of 1-10?</p>
+<input type="range" min="0" max="10" value="0" onchange="showValue(this.value)" />
+<span id="range">0</span>
+<script type="text/javascript">
+function showValue(newValue)
+{
+	document.getElementById("range").innerHTML=newValue;
+}
+</script>
+</body>
+<form>
+   <button type="submit">Next</button>
+</form>
+</html>
