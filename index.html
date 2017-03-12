@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.7.2/css/bootstrap-slider.css">
     </head>
      <script src="https://kenbotcorps.github.io/safespace/index.js"></script>
+    <script>
+        var slider = new Slider("#ex6");
+slider.on("slide", function(sliderValue) {
+	document.getElementById("ex6SliderVal").textContent = sliderValue;
+});
+    </script>
  <style>
   h1 {
     font-size: 24px;
@@ -15,7 +21,7 @@
   }
  </style>
  <h1>How are you feeling today on a scale of 1-10?</h1>
- 
+
 <body>
     <input id="ex6" type="text" data-slider-min="1" data-slider-max="10" data-slider-step="1" data-slider-value="5"/>
 <span id="ex6CurrentSliderValLabel">  &nbsp&nbsp  <span id="ex6SliderVal">5</span></span>
