@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>repl.it</title>
+        <script src="index.js"></script>
+        <link href="index.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <style>.button {
+    background-color: #0000FF;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}</style>
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#anxiety">Anxiety</a></li>
+  <li><a href="#deprssion">Depression</a></li>
+  <li><a href="#Eatingdisorder">Eating Disorder</a></li>
+  <li><a href="#adhd">ADHD</a></li>
+  <li><a href="idontknow">I Don't Know</a></li>
+</ul>
+
+    </head>
+    <body>
+<h1>Anxiety</h1>
+<h2>Resources:</h2>
+<div><a href="http://youth.anxietybc.com/"target="_blank">Anxiety BC</a></div>
+<div>  <a href="https://www.adaa.org/living-with-anxiety/children"target="_blank">ADAA</a></div>
+<div> <a href="http://www.worrywisekids.org/"target="_blank">Worry Wise Kids</a></div>
+
+<a href="#" class="button">Chat</a>
+
+
+    </body>
+</html>
